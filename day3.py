@@ -5,8 +5,9 @@ print(10/7)
 
 
 #** __> exponential, only works in integer
-print(2**10)
-#% modulas
+print(2**10) #2 ko cube
+#% modulas #% print reminder
+
 print(10%3)
 #// double slace, only answer in int.use when point number is not imp
 print (10//3)
@@ -19,8 +20,7 @@ print (a+b)
 
 a= "hello"
 b= 55
-print (a+str(b))#type casting
-
+print (a+str(b))#, b lai string ma convert gareko type casting
 
 #pydantic v2-->  manage conflict of data manage.
 
