@@ -6,7 +6,8 @@ print(10/7)
 
 #** __> exponential, only works in integer
 print(2**10) #2 ko cube
-#% modulas #% print reminder
+#% modulas 
+# #% print reminder
 
 print(10%3)
 #// double slace, only answer in int.use when point number is not imp
