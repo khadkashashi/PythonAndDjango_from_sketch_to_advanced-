@@ -1,4 +1,7 @@
-#nested if 
+#nested if (if inside if)
+#Used when you want to check multiple conditions inside another condition.
+
+
 if (1==1):
     print ("this is true")
 else:
@@ -43,7 +46,7 @@ print ("---------------------"*2)
 #list are changeable meaning we can alter then after creation
 # start with index[0]
 # Creating a list of string
-#mutable data ie it can cahnge ehenever we want
+#mutable data ie removeable and addable
 list1 = ["Apple", "Banana", "Cherry", "Orang"]
 
 # Creating a list of integers

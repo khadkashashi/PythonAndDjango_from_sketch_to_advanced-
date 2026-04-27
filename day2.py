@@ -1,3 +1,6 @@
+
+#type validation 
+#type casting
 a = " test"
 a = "100"
 print (type(a))
@@ -11,7 +14,7 @@ a= False
 print (type(a))
 
 print(isinstance(12,str)) #type validation ,validate about data type
-type(a)=str # there is go gurantee it will always true because all have diff object
+type(a)==str # there is go gurantee it will always true because all have diff object
 
 #typee casting
 
@@ -36,3 +39,9 @@ print("after clasting",type(b),b)
 #Used to change the type of a value          Used to verify input before processing
 #Example: string "10" → integer 10	           Example: checking if age is an integer
 #Functions used: int(), float(), str(), list()	Functions used: type(), isinstance()
+
+
+
+#Input and Output Functions
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))

@@ -1,6 +1,17 @@
 #if condition--> block of code 
+#In Python, conditional statements help you execute certain blocks of code only when specific conditions are true.
+
+
 #syntax
 #if (condtion):
+
+#if-else Statement
+#Used when you want to run one block if the condition is true and another if it is false.
+
+#if condition:
+    # runs when True
+#else:
+    # runs when False
     
 if(2==1):
     print("this is true condition") #indent ie. cruser ali bhitra
@@ -14,7 +25,10 @@ else:
     print("u cant vote")
 
 
-#if+else =elif
+#if+else =elif 
+#Used when you have multiple conditions to check.
+
+
 if (2==2):
     print("this is if condition")
 elif("hello"!="test"):
@@ -55,3 +69,13 @@ elif percentage >= 0.8 and percentage <1.2 :
 
 else:
     print("Fail")
+
+
+
+
+
+ #Summary
+#if checks a condition.
+#if-else handles true/false cases.
+#elif adds more branches.
+#Indentation is important in Python.
