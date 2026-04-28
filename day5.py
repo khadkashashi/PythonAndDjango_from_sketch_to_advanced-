@@ -104,6 +104,7 @@ data = ["hello", "test", 1,2,3,4,"broadway"]
 data.append(1.6) # add at last
 data.append("added")
 print (data)
+
 #extend--> just add two index
 data = ["hello", "test", 1,2,3,4,"broadway"]
 data1=[2,2,2,3]
@@ -116,6 +117,8 @@ print (data1)
 data = ["hello", "test", 1,2,3,4,"broadway"]
 data.insert(1,"hari")
 print(data)
+
+
 #concat--> add two index and make new list
 data = ["hello", "test", 1,2,3,4,"broadway"]
 data1=[2,2,2,3]
@@ -123,3 +126,4 @@ data2= data+data1
 print(data2)
 print(data1)
 print(data)
+
