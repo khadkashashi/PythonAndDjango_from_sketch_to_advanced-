@@ -79,7 +79,6 @@ print(even)
 print(odd)
 
 
-
 #Loop Control Statements
 #1. break--> Stops the loop immediately.
 for i in range(1,10,1):
