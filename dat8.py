@@ -33,6 +33,7 @@ print(data)
 data['temp_num']=98765 # if there is no value in dict it will create new value in dict.
 print(data)
 
+
 # The update() method is also used to change the the value in the
 data["age"]=99
 data["home"]="nawolpur"
@@ -63,6 +64,7 @@ data1.popitem()
 print(data1)
 #data1={}
 #data.popitem()# error occur cause of empty dict
+
 
 #3.clear --> The clear() method empties the dictionary
 data1.clear()
