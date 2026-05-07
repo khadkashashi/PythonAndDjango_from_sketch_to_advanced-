@@ -149,5 +149,5 @@ print(data['name'],data['phone'][1]['type'],"numbwr is",data['phone'][1]['num'])
 
 
 #F_string
-#print(f"{data['name']} {data['phone'][0]['type']} number is {data['phone'][0]['num']} ")
-#print(f"{data['name']} {data['phone'][1]['type']} number is {data['phone'][1]['num']} ")
+print(f"{data['name']} {data['phone'][0]['type']} number is {data['phone'][0]['num']} ")
+print(f"{data['name']} {data['phone'][1]['type']} number is {data['phone'][1]['num']} ")

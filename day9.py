@@ -94,3 +94,10 @@ for i in range(1,10,1):
         continue
     print(i)
 
+
+#Difference Between break and continue in Python
+#break	                     continue
+#Stops the loop completely	 Skips current iteration
+#Exits the loop	             Moves to next iteration
+#Used when loop should end	 Used when some values should be skipped
+
