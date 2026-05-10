@@ -67,3 +67,32 @@ while True:
         if count >= max_limit:
             print(f"\nNo attempts remaining. The correct number was {random_num}.")
             break
+
+
+
+
+
+
+# rock paper scissors
+data=['r','p','s']
+while True:
+    computer=random.choice(data)# list bata 1 ota data linx
+    user=input('enter a value r,p,s :').lower()
+    if user not in data:
+        print("Invalid input choose r, p ,s ")
+        continue
+
+    if computer == user:
+        print("Tie")
+
+    elif (user=='r'and computer=='s')or(user=='p'and computer=='r')or (user=='s'and computer=='p'):
+        print('u win')
+        
+            
+    else:
+        print('u lost')
+    user_input= input ('do u wnat to play again y/n').lower()
+    if user_input=="n":
+        break
+
+
