@@ -128,3 +128,69 @@ add(1,2,"jsdh",3,[12,12,345])
 #add(1,2,3)
 #add(1)
 #* means: "Accept any number of positional arguments"
+
+
+
+
+
+
+
+
+def data1(**kwargs):
+    print(type(kwargs))
+    print(kwargs.values())
+    print(kwargs.keys())
+    
+    if "age" in kwargs.keys():
+        print('age=',kwargs['age'])
+    else:
+        print("age is not found")
+    return kwargs
+
+data1(fname="shashi", num=1234,address="")
+
+
+#age=kwargs.get("age")
+#print(age)
+#if age is None:
+#    print("age is missing")
+#else:
+#print(age)
+
+
+
+#def marks_sheet(*args,**kwargs):...#pass
+def marks_sheet(*args,**kwargs):
+    pass
+print(marks_sheet(100,38,98,45,name="hari",grade=10))
+
+
+
+
+def marks_sheet(*args,**kwargs):
+    avg= sum(args)/len(args)
+    #print(avg)
+    #print(args)
+    #print(kwargs)
+    return f'{kwargs.get('name')}  obtain{avg}%'
+print (marks_sheet(100,2354,345,name="shashi",grade=14))
+print(marks_sheet(10,24,34,name="shashi",garde =12))
+
+
+
+def marks_sheet(*args,**kwargs):
+   avg= sum(args)/len(args)
+   max_num =max(args)
+   min_num= min(args)
+   max_number=args[0]
+   min_number=args[0]
+   for i in args:
+       if i >max_number:
+           max_number=i
+           
+           
+
+   return f'{kwargs.get('name')}  obtain{avg}% and max number is {max_num}and min number is {min_num}'
+print (marks_sheet(100,2354,345,name="shashi",grade=14))
+print(marks_sheet(10,24,34,name="shashi",garde =12))
+
