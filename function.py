@@ -187,10 +187,34 @@ def marks_sheet(*args,**kwargs):
    for i in args:
        if i >max_number:
            max_number=i
-           
-           
-
    return f'{kwargs.get('name')}  obtain{avg}% and max number is {max_num}and min number is {min_num}'
 print (marks_sheet(100,2354,345,name="shashi",grade=14))
 print(marks_sheet(10,24,34,name="shashi",garde =12))
 
+#fact
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact = fact * i
+    return fact
+
+print(factorial(5))
+
+#count
+def count_digits(n):
+    count = 0
+    for i in str(n):
+        count += 1
+    return count
+
+print(count_digits(12345))
+
+#rev
+def reverse(n):
+    rev = 0
+    while n > 0:
+        rev = rev * 10 + n % 10
+        n = n // 10
+    return rev
+
+print(reverse(1234))
