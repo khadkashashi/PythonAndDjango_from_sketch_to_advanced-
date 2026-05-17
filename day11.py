@@ -9,3 +9,7 @@
 #git remote add origin (variable) repo name
 
 #git status--->
+
+
+# to check the bran name ---> git branch
+# to switch branch ---> git checkout branch_name
