@@ -31,3 +31,27 @@ print(obj.wheel)
 print(obj.car_info2)
 obj.c =100 # obj attrs
 print(obj.c)
+
+
+
+
+
+class Test():
+    a=11
+
+    def __init__(self,a,b,c): # python construction which call itself 
+        self.a = a
+        self.b =b
+        self.c=c
+        print(a,b,c)
+        print("value of a is",a)
+        print("i am here    ")
+        
+    def add(self,data):
+        self.data =data
+        return self.a + self.b +data
+
+    def result(self):
+        return self.data
+    
+obj=Test()
