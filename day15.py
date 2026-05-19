@@ -50,7 +50,7 @@ class Test():
     def add(self,data):
         self.data =data
         return self.a + self.b +data
-    def__str__(self):
+    #def__str__(self):
         print("i am form str")
     
     
